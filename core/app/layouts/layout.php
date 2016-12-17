@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Inventio Lite | Dashboard</title>
+    <title>Inventario | Dashboard</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -43,7 +43,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>I</b>L</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>INVENTIO</b>LITE</span>
+          <span class="logo-lg"><b>Inventario</b></span>
         </a>
 
         <!-- Header Navbar -->
@@ -69,10 +69,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <!-- The user image in the menu -->
-                  <li class="">
-                      <a href="http://evilnapsis.com/" target="_blank" class="">Ir a Evilnapsis</a>
-                      <a href="http://evilnapsis.com/product/inventio-max/" target="_blank" class="">Ver Inventio Max</a>
-                  </li>
+                
                   
                   <!-- Menu Footer-->
                   <li class="user-footer">
@@ -163,16 +160,11 @@
         </div>
       </div><!-- /.content-wrapper -->
 
-        <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-          <b>Version</b> 3.0
-        </div>
-        <strong>Copyright &copy; 2016 <a href="http://evilnapsis.com/" target="_blank">Evilnapsis</a></strong>
-      </footer>
+       
       <?php else:?>
 <div class="login-box">
       <div class="login-logo">
-        <a href="./">INVENTIO<b>LITE</b></a>
+        <a href="./">Inventario<b></b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processlogin" method="post">
